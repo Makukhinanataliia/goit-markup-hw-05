@@ -136,6 +136,7 @@
                 <h3 class="team-img-name">Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
                 <ul class="team-icon">
+                <ul class="icon-list">
                   <li class="team-icon-li">
                     <a href="" class="team-link-li">
                       <svg class="icon-team" width="16" height="16">
@@ -177,7 +178,7 @@
               <div class="card">
                 <h3 class="team-img-name">Tom Ford</h3>
                 <p class="team-item-text">Frontend Developer</p>
-                <ul class="team-icon">
+                <ul class="icon-list">
                   <li class="team-icon-li">
                     <a href="" class="team-link-li">
                       <svg class="icon-team" width="16" height="16">
@@ -219,7 +220,7 @@
               <div class="card">
                 <h3 class="team-img-name">Camila Garcia</h3>
                 <p class="team-item-text">Marketing</p>
-                <ul class="team-icon">
+                <ul class="icon-list">
                   <li class="team-icon-li">
                     <a href="" class="team-link-li">
                       <svg class="icon-team" width="16" height="16">
@@ -261,7 +262,7 @@
               <div class="card">
                 <h3 class="team-img-name">Daniel Wilson</h3>
                 <p class="team-item-text">UI Designer</p>
-                <ul class="team-icon">
+                <ul class="icon-list">
                   <li class="team-icon-li">
                     <a href="" class="team-link-li">
                       <svg class="icon-team" width="16" height="16">
@@ -464,76 +465,27 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer-wrapper-subscribe">
-        <p class="footer-wrapper-subscribe-p">Subscribe</p>
-        <label for="subscribe" class="modal-email">Subscribe</label>
-        <input
-          type="email"
-          name="subscribe-email"
-          class="modal-input"
-          placeholder="Email"
-          id="subscribe"
-        />
+        <div class="footer-wrapper-subscribe">
+          <p class="footer-wrapper-subscribe-p">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label">
+              <input
+                type="email"
+                class="footer-input"
+                name="footer-input"
+                placeholder="Email"
+              />
+            </label>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg width="24" height="24" class="subscribe-icon">
+                <use href=""></use>
+              </svg>
+            </button>
+            <svg class="footer-btn-icon" widh="24" heigh="24"></svg>
+          </form>
+        </div>
       </div>
     </footer>
-    <!--     <div class="backdrop">
-      <div class="modal">
-        <button type="button" class="modal-btn">
-          <svg class="modal-btn-icon" width="28" height="28">
-            <use href="./images/icons.svg#icon-x-close"></use>
-          </svg>
-        </button>
-        <p class="modal-title section-title">
-          LEAVE A REVIEW ABOUT <span>OUR CHOCOLATE</span>
-        </p>
-        <form class="modal-form">
-          <div class="modal-field">
-            <label for="user-name" class="modal-label">Name</label>
-            <div class="modal-input-wrap">
-              <input
-                type="text"
-                name="user-name"
-                class="modal-input"
-                placeholder="Enter name"
-                id="user-name"
-              />
-              <svg class="modal-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-user"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="modal-field">
-            <label for="user-email" class="modal-label">email</label>
-            <input
-              type="email"
-              name="user-email"
-              class="modal-input"
-              placeholder="Enter email"
-              id="user-email"
-            />
-          </div>
-          <div class="modal-field">
-            <input
-              type="tel"
-              name="user-phone"
-              class="modal-input"
-              placeholder="Enter phone"
-              required
-            />
-          </div>
-          <div class="modal-field">
-            <label for="user-text" class="modal-label">Comment</label>
-            <textarea
-              name="user-text"
-              id="user-text"
-              class="modal-text"
-              placeholder="Enter text"
-            ></textarea>
-          </div>
-          <button type="submit">Send</button>
-        </form>
-      </div>
-    </div> -->
   </body>
 </html>
